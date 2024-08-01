@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+}
+
+.baris-1 {
+    background-color: yellow;
+    padding: 50px;
+}
+
+.baris-2 {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.baris-3 {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.baris-4 {
+    background-color: pink;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.baris-5 {
+    background-color: cyan;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+img {
+    width: 20%;
+    height: 100%;
+}
+
+.baris-2-kolom-1,
+.baris-2-kolom-2,
+.baris-2-kolom-3,
+.baris-2-kolom-4,
+.baris-2-kolom-5 {
+    height: 30px;
+    width: 20%;
+}
+
+.baris-3-kolom-1,
+.baris-3-kolom-2,
+.baris-3-kolom-3,
+.baris-3-kolom-4,
+.baris-3-kolom-5 {
+    height: 30px;
+    width: 20%;
+}
+
+.baris-2-kolom-1 {
+    background-color: aliceblue;
+}
+
+.baris-2-kolom-2 {
+
+    background-color: blue;
+    color: white;
+}
+
+.baris-2-kolom-3 {
+
+    background-color: blueviolet;
+    color: white;
+}
+
+.baris-2-kolom-4 {
+    background-color: red;
+    color: white;
+}
+
+.baris-2-kolom-5 {
+    background-color: bisque;
+}
+
+.baris-3-kolom-1 {
+    background-color: aliceblue;
+}
+
+.baris-3-kolom-2 {
+
+    background-color: blue;
+    color: white;
+}
+
+.baris-3-kolom-3 {
+
+    background-color: blueviolet;
+    color: white;
+}
+
+.baris-3-kolom-4 {
+    background-color: red;
+    color: white;
+}
+
+.baris-3-kolom-5 {
+    background-color: bisque;
+}
+
+
+.wrapper {
+    padding: 30px;
+    background-color: gray;
+    margin-top: 30px;
+}
