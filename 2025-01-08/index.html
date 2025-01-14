@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survival Game</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="game-container">
+        <header id="game-header">
+            <h1>Survival Game</h1>
+        </header>
+        <main id="game-area">
+            <div id="adventure-log">
+                <p id="game-message">
+                    Welcome to the Survival Game! Survive as many days as possible.
+                </p>
+            </div>
+            <div id="combat-area" style="display: none">
+                <h2>COMBAT</h2>
+                <div id="combat-visual">
+                    <img src="images/mc.png" alt="Character Image" id="combat-character-image" />
+                    <p>VS</p>
+                    <img src="" alt="Monster Image" id="combat-monster-image" />
+                </div>
+                <p>Monster Health: <span id="monster-health"></span></p>
+                <button id="attack">Attack</button>
+                <button id="power-strike">Power Strike</button>
+                <button id="angel-blow">Angel Blow</button>
+                <button id="run">Run</button>
+            </div>
+            <div id="stats-section">
+                <h2>INFORMATION</h2>
+                <table>
+                    <tr>
+                        <td>Health:</td>
+                        <td><span id="health">100</span></td>
+                        <td>Energy:</td>
+                        <td><span id="energy">100</span></td>
+                    </tr>
+                    <tr>
+                        <td>Level:</td>
+                        <td><span id="level">1</span></td>
+                        <td>XP:</td>
+                        <td><span id="xp">0</span> / <span id="xp-threshold">100</span></td>
+                    </tr>
+                    <tr>
+                        <td>Mana:</td>
+                        <td><span id="mana">50</span></td>
+                        <td>Max Mana:</td>
+                        <td><span id="max-mana">50</span></td>
+                    </tr>
+                    <tr>
+                        <td>Day:</td>
+                        <td><span id="day">1</span></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="actions-section">
+                <h2>ACTIONS</h2>
+                <button id="adventure">Adventure</button>
+                <button id="rest">Rest</button>
+                <button id="character-stats-button">Character Stats</button>
+                <button id="upgrade-skill-button">Upgrade Skill</button>
+            </div>
+
+            <div id="upgrade-menu" style="display: none">
+                <h2>UPGRADE SKILL</h2>
+                <button id="upgrade-power-strike">Upgrade Power Strike (Cost: <span
+                        id="power-strike-cost"></span>)</button>
+                <button id="upgrade-angel-blow">Upgrade Angel Blow (Cost: <span id="angel-blow-cost"></span>)</button>
+                <button id="close-upgrade-menu">Close</button>
+            </div>
+
+            <div id="character-stats" style="display: none">
+                <h2>CHARACTER STATS</h2>
+                <img src="images/mc.png" alt="Character Image" id="character-image" />
+                <div id="char-stats-list"></div>
+                <button id="close-stats-button">Close</button>
+            </div>
+        </main>
+        <footer id="game-footer">
+            <p>&copy; 2024 Survival Game</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
